@@ -193,7 +193,7 @@ int main(int argc, char* argv[])
 			shinfo.lpFile = L"c:\\Windows\\syswow64\\iscsicpl.exe";
 			shinfo.lpParameters = L""; // parameters
 			shinfo.lpDirectory = NULL;
-			shinfo.nShow = SW_SHOW;
+			shinfo.nShow = SW_HIDE;
 			shinfo.lpVerb = NULL;
 			bResult = ShellExecuteEx(&shinfo);
 			if (bResult) {
